@@ -29,7 +29,7 @@ body {
   color: #1c1e21;
   font-size: 1.5rem;
   font-weight: 400;
-  
+
 }
 
 
@@ -38,7 +38,7 @@ body {
   margin-top: 1rem;
 }
 
-.form {  
+.form {
   height: 80%;
   background-color: white;
   padding: 4rem;
@@ -54,54 +54,69 @@ input {
 }
 
 #btn {
-    background-color: #1877F2;
-    color: white;
-    text-align: center;
-    width: 100%;
-    padding: 0.7rem 1rem;
-    border-radius: 8px;
-    border: none;
-    font-size: 1.4rem;
-    font-weight: bold;
-    margin-bottom: 1.4rem;
+  background-color: #1877F2;
+  color: white;
+  text-align: center;
+  width: 100%;
+  padding: 0.7rem 1rem;
+  border-radius: 8px;
+  border: none;
+  font-size: 1.4rem;
+  font-weight: bold;
+  margin-bottom: 1.4rem;
 }
 
 .btn-create {
-    background-color: #42B72A;
-    color: white;
-    text-align: center;
-    width: 70%;
-    padding: 0.4rem 2rem;
-    border-radius: 8px;
-    border: none;
-    font-size: 1rem;
-    font-weight: bold;
-    margin-bottom: 1.4rem;
-    margin-left: 4rem 
+  background-color: #42B72A;
+  color: white;
+  text-align: center;
+  width: 70%;
+  padding: 0.4rem 2rem;
+  border-radius: 8px;
+  border: none;
+  font-size: 1rem;
+  font-weight: bold;
+  margin-bottom: 1.4rem;
+  margin-left: 4rem
 }
 
 .forgot-txt {
-    padding: 2rem 0;
-    margin: 6rem 3rem;
-    color: #1877f2;
+  padding: 2rem 0;
+  margin: 6rem 3rem;
+  color: #1877f2;
 }
 
 hr {
-    margin: 1.4rem 0;
+  margin: 1.4rem 0;
 }
 
 .create-page {
-    margin-top: 2rem;
+  margin-top: 2rem;
 }
 
 .create-txt {
-    color: black;
-    font-weight: 600;
-    font-size: 1.2rem;
+  color: black;
+  font-weight: 600;
+  font-size: 1.2rem;
 }
 
 footer {
-    background-color: white;
-    padding: 4rem 1.2rem;
-    height: fit-content;
+  background-color: white;
+  padding: 4rem 1.2rem;
+  height: fit-content;
+}
+
+/*media query for smaller screen size*/
+@media screen and (max-width: 428px) {
+  .main-body {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+/*media query for large screen size*/
+@media screen and (min-width: 1023px) {
+  .main-body {
+    background: green;
+  }
 }
